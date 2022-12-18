@@ -1,93 +1,39 @@
 import styled from "styled-components";
-import { createGlobalStyle } from "styled-components";
+import Cabeludo from "../assets/cabeludo.png"
 
-export const GlobalStyle = createGlobalStyle`
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-`
-export const Header = styled.header`
-display: flex;
+
+export const Main = styled.main`
 border: solid;
-justify-content: space-between;
-height: 14vh;
-nav{
-    width: 47vw;
-    border: solid purple;
-}
-ul{
-    height: 13vh;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    list-style: none;
-    border: solid;
-}
-li{
-    color: #9767A9;
-    font-family: "Roboto", sans-serif;
-    font-weight:300;
-    font-size: 16px;
-    border: solid;
-}
+height: 200vh;
 `
-export const LogoBox = styled.div`
-display: flex;
-align-items: center;
-justify-content: center;
-width: 19vw;
-img{
-    width: 8vw;
-}
-`
-export const SectionHeader = styled.section`
-display: flex;
-align-items: center;
-justify-content:space-evenly;
-border: solid yellow;
-width:31vw;
-gap: 24px;
-`
-export const InputBox = styled.div`
-display: flex;
-align-items: center;
-justify-content: flex-end;
-position: relative;
-border: solid purple;
-width: 16vw;
-height: 7vh;
+export const FirstSectionMain = styled.section`
+border: solid red;
+height: 100vh;
 
-input{
-    position: relative;
-    right: 1vw;
-    height: 4.5vh;
-    border-radius: 30px;
-    padding-left: 36px;
-    width: 3vw;
-    transition: ease-in-out 1.2s;
- &:focus{
-    border: #9767A9 solid 2.5px;
- }
-}
 `
-export const Lupa = styled.img`
-position: absolute;
-transition: ease-in-out 1.20s;
-cursor: pointer;
-z-index: 10;
-`
-export const SectionImagesBox = styled.section`
+export const FirstDivSection = styled.div`
+
 display: flex;
+align-items: center;
 justify-content: space-evenly;
-width: 11vw;
-/* border: solid; */
-img{
-    width: 2.4vw;
-    &:hover{
-        transform: scale(110%);
-        cursor: pointer;
-    }
+height: 87vh;
+background-image: url(${Cabeludo});
+background-repeat: no-repeat;
+background-size:100%;
+border: solid purple;
+h2,h3{
+    display: flex;
+    position: relative;
+    top: 7vh;
+    color: #ffff;
+    line-height: 78px;
 }
+h2{
+    font-size: 74px;
+    border: solid;
+    word-break: break-word;
+    width: 30%;
+}
+`
+export const SecondDivSection = styled.div`
 `

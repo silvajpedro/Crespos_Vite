@@ -1,11 +1,11 @@
 import React from "react";
-import Crespos from "./Components/Main";
+import Header from "./Components/Header";
+import Main from "./Components/Main";
 export default function App() {
   return (
     <>
-<Crespos/>
+      <Header />
+      <Main />
     </>
-  )
+  );
 }
-
-
