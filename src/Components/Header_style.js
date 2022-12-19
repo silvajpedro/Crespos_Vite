@@ -9,25 +9,34 @@ export const GlobalStyle = createGlobalStyle`
 }
 `
 export const Header = styled.header`
+position: sticky;
+top: 0;
 display: flex;
 justify-content: space-between;
 height: 14vh;
+background-color: #ffff;
+z-index: 1;
 nav{
+    display: flex;
     width: 47vw;
-    
 }
 ul{
-    height: 13vh;
+    height: 14vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
     list-style: none;
+    width: 100%;
 }
 li{
     color: #9767A9;
     font-family: "Roboto", sans-serif;
     font-weight:300;
     font-size: 16px;
+    &:hover{
+        transform: scale(112%);
+        cursor: pointer;
+    }
 }
 `
 export const LogoBox = styled.div`
