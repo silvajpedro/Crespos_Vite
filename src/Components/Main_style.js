@@ -4,7 +4,7 @@ import Cabeludo from "../assets/cabeludo.png"
 
 export const Main = styled.main`
 border: solid;
-height: 760vh;
+height: 630vh;
 `
 export const FirstSectionMain = styled.section`
 
@@ -72,10 +72,11 @@ p{
 `
 export const SecondSectionMain = styled.section`
 position: relative;
+top: -10vh;
 display: flex;
 flex-wrap: wrap;
 justify-content: center;
-height:450vh;
+height:480vh;
 border: solid firebrick;
 div{
     position: absolute;
