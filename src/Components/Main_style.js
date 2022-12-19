@@ -59,7 +59,6 @@ h4{
     width: 48%;
     font-family: 'Playfair Display', serif;
     font-size: 50px;
-    /* border: solid yellow; */
 }
 p{
     position: relative;
