@@ -33,8 +33,8 @@ export default function Header() {
       </S.InputBox>
       <S.SectionImagesBox>
         <img src={facebook} alt="icone do facebook em roxo" />
-        <img src={instagram} alt="icone de instagram em roxo" />
-        <img src={youtube} alt="" />
+        <img src={instagram} alt="" />
+        <img src={youtube} alt="icone do youtube em roxo" />
       </S.SectionImagesBox>
     </S.SectionHeader>
     </S.Header>
