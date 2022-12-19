@@ -29,14 +29,12 @@ h2,h3{
 }
 h2{
     font-size: 74px;
-    /* border: solid; */
     word-break: break-word;
     width: 30%;
 }
 h3{
     width: 25%;
     line-height: 35px;
-    /* border: solid; */
     font-size: 28px;
     word-break: break-word;
     font-weight: lighter;
@@ -47,7 +45,6 @@ export const SecondDivSection = styled.div`
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&display=swap');
 
-/* border: solid; */
 height: 40vh;
 color: #ffff;
 position: relative;
