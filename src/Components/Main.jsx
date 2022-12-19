@@ -31,7 +31,7 @@ export default function Main() {
         </S.FirstSectionMain>
         <S.SecondSectionMain>
           <figure>
-            <S.HairImage src={foto_espelho} alt="" />
+            <S.HairImage src={foto_espelho} alt="foto de cabelo no espelho" />
             <div>
               <h2>1. Olhe para o espelho e toque no seu cabelo</h2>
               <figcaption>
