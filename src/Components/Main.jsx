@@ -48,7 +48,7 @@ export default function Main() {
             </div>
           </figure>
           <figure>
-            <S.HairImage src={maju} alt="" />
+            <S.HairImage src={maju} alt="foto da maju coutinho adulta e criança" />
             <div>
               <h2>2. Tenha referências</h2>
               <figcaption>
@@ -65,7 +65,7 @@ export default function Main() {
             </div>
           </figure>
           <figure>
-            <S.HairImage src={praia} alt="" />
+            <S.HairImage src={praia} alt="foto na praia" />
             <div>
               <h2>3. Seja amável com seus detalhes</h2>
               <figcaption>
@@ -78,7 +78,7 @@ export default function Main() {
             </div>
           </figure>
           <figure>
-            <S.HairImage src={realeza} alt="" />
+            <S.HairImage src={realeza} alt="foto da rainha" />
             <div>
               <h2>4. Ignore as opiniões alheias</h2>
               <figcaption>
@@ -92,7 +92,7 @@ export default function Main() {
             </div>
           </figure>
           <figure>
-            <S.HairImage src={familia} alt="" />
+            <S.HairImage src={familia} alt="foto da familia" />
             <div>
               <h2>5. Procure as suas raízes</h2>
               <figcaption>
@@ -108,7 +108,7 @@ export default function Main() {
             </div>
           </figure>
           <figure>
-            <S.HairImage src={banho} alt="" />
+            <S.HairImage src={banho} alt="cabelo tomando " />
             <div>
               <h2>6. Respeite suas fases</h2>
               <figcaption>
@@ -122,7 +122,7 @@ export default function Main() {
             </div>
           </figure>
           <figure>
-            <S.HairImage src={last} alt="" />
+            <S.HairImage src={last} alt="cabelos brancos" />
             <div>
               <h2>7. Tenha orgulho dele</h2>
               <figcaption>
