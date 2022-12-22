@@ -71,7 +71,6 @@ export const SecondSectionMain = styled.section`
   flex-wrap: wrap;
   justify-content: center;
   height: 480vh;
-  /* border: solid firebrick; */
   h2 {
     position: relative;
     display: flex;
@@ -84,7 +83,6 @@ export const SecondSectionMain = styled.section`
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* border: solid yellow; */
     width: 45%;
     height: 106vh;
   }
@@ -120,7 +118,6 @@ export const SecondSectionMain = styled.section`
     }
   }
   figcaption {
-    /* border: solid; */
     width: 90%;
     font-size: 1.36vw;
     color: #ffff;
@@ -135,10 +132,8 @@ export const SecondSectionMain = styled.section`
     background-color: #9767a9;
     width: 30vw;
     height: 50vh;
-    /* border: solid orange; */
   }
   figure:nth-child(1) div {
-    /* border: solid blue; */
     height: 58vh;
     h2 {
       top: 1vh;
@@ -156,7 +151,6 @@ export const SecondSectionMain = styled.section`
     }
   }
   figure:nth-child(3) div {
-    /* border: solid; */
     height: 39vh;
     top: 55vh;
     h2 {
@@ -172,7 +166,6 @@ export const SecondSectionMain = styled.section`
     }
   }
   figure:nth-child(4) div {
-    /* border: solid blue; */
     height: 39.5vh;
     top: 69vh;
     h2 {
@@ -185,7 +178,6 @@ export const SecondSectionMain = styled.section`
     }
   }
   figure:nth-child(5) div {
-    /* border: solid red; */
     height: 44vh;
     h2 {
       left: -2vw;
