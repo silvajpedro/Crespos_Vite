@@ -7,6 +7,7 @@ import realeza from "../assets/NoPath - Copia (49).png";
 import familia from "../assets/NoPath - Copia (55).png";
 import banho from "../assets/NoPath - Copia (56).png";
 import last from "../assets/NoPath - Copia (57).png";
+import cacho from "../assets/cacho.png"
 export default function Main() {
   return (
     <>
@@ -52,7 +53,7 @@ export default function Main() {
             <div>
               <h2>2. Tenha referências</h2>
               <figcaption>
-                Que tal parar de teWntar se encaixar em padrões menores que
+                Que tal parar de tentar se encaixar em padrões menores que
                 você? O que a sociedade diz que é bonito, não importa, você é
                 maior do que isso. As pessoas são diferentes e essa é a beleza
                 da vida. Já pensou que chato todo mundo igual? Procure se
@@ -108,7 +109,7 @@ export default function Main() {
             </div>
           </figure>
           <figure>
-            <S.HairImage src={banho} alt="cabelo tomando " />
+            <S.HairImage src={banho} alt="cabelo no banho " />
             <div>
               <h2>6. Respeite suas fases</h2>
               <figcaption>
@@ -134,6 +135,9 @@ export default function Main() {
                 também!
               </figcaption>
             </div>
+          </figure>
+          <figure>
+            <img src={cacho} alt="" />
           </figure>
         </S.SecondSectionMain>
       </S.Main>
