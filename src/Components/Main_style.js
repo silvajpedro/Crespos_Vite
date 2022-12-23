@@ -2,8 +2,7 @@ import styled from "styled-components";
 import Cabeludo from "../assets/cabeludo.png";
 
 export const Main = styled.main`
-  border: solid;
-  height: 630vh;
+  height: 572vh;
 `;
 export const FirstSectionMain = styled.section`
   height: 138vh;
@@ -70,14 +69,14 @@ export const SecondSectionMain = styled.section`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  height: 480vh;
+  height: 442vh;
+  /* border: solid red; */
   h2 {
     position: relative;
     display: flex;
     align-items: center;
     color: #ffff;
   }
-
   figure {
     position: relative;
     display: flex;
@@ -110,7 +109,7 @@ export const SecondSectionMain = styled.section`
     justify-content: center;
     height: 58vh;
     img {
-      width: 28vw;
+      width: 27vw;
       transition: ease-in-out 1s;
       &:hover {
         transform: rotate(180deg);
