@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import Cabeludo from "../assets/cabeludo.png";
+import Cabeludo from "../../assets/cabeludo.png";
 
 export const Main = styled.main`
   height: 572vh;

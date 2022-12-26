@@ -1,13 +1,13 @@
 import React from "react";
 import * as S from "./Main_style.js";
-import foto_espelho from "../assets/cabelo no espelho.png";
-import maju from "../assets/NoPath - Copia (18).png";
-import praia from "../assets/NoPath - Copia (19).png";
-import realeza from "../assets/NoPath - Copia (49).png";
-import familia from "../assets/NoPath - Copia (55).png";
-import banho from "../assets/NoPath - Copia (56).png";
-import last from "../assets/NoPath - Copia (57).png";
-import cacho from "../assets/cacho.png"
+import foto_espelho from "../../assets/cabelo no espelho.png";
+import maju from "../../assets/NoPath - Copia (18).png";
+import praia from "../../assets/NoPath - Copia (19).png";
+import realeza from "../../assets/NoPath - Copia (49).png";
+import familia from "../../assets/NoPath - Copia (55).png";
+import banho from "../../assets/NoPath - Copia (56).png";
+import last from "../../assets/NoPath - Copia (57).png";
+import cacho from "../../assets/cacho.png"
 import { GlobalStyle } from "../GlobalStyle/globalstyle.js";
 
 export default function Main() {

@@ -1,10 +1,10 @@
 import React, {useState} from "react";
 import * as S from "./Header_style.js"
-import logo from "../assets/logo_todecacho.png"
-import facebook from "../assets/facebook_media.png"
-import youtube from "../assets/youtube_media.png"
-import instagram from "../assets/instagram_media.png"
-import lupa from "../assets/pesquisa.png"
+import logo from "../../assets/logo_todecacho.png"
+import facebook from "../../assets/facebook_media.png"
+import youtube from "../../assets/youtube_media.png"
+import instagram from "../../assets/instagram_media.png"
+import lupa from "../../assets/pesquisa.png"
 import { GlobalStyle } from "../GlobalStyle/globalstyle.js";
 
 export default function Header() {
