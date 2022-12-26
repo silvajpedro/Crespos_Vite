@@ -5,15 +5,16 @@ import facebook from "../assets/facebook_media.png"
 import youtube from "../assets/youtube_media.png"
 import instagram from "../assets/instagram_media.png"
 import lupa from "../assets/pesquisa.png"
+import { GlobalStyle } from "./GlobalStyle/globalstyle.js";
 
 export default function Header() {
   const [open, setOpen] = useState(false)
   
   return (
     <>
-    <S.GlobalStyle />
+    <GlobalStyle />
     <S.Header>
-      <S.LogoBox>
+      <S.LogoBox id="logo">
         <img src={logo} alt="logo em cor rosa escrito to de cacho" />
       </S.LogoBox>
    <nav>

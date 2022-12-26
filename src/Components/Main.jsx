@@ -8,9 +8,12 @@ import familia from "../assets/NoPath - Copia (55).png";
 import banho from "../assets/NoPath - Copia (56).png";
 import last from "../assets/NoPath - Copia (57).png";
 import cacho from "../assets/cacho.png"
+import { GlobalStyle } from "./GlobalStyle/globalstyle.js";
+
 export default function Main() {
   return (
     <>
+    <GlobalStyle/>
       <S.Main>
         <S.FirstSectionMain>
           <S.FirstDivSection>

@@ -13,14 +13,16 @@ import beard from  "../assets/NoPath - Copia (9).png"
 import seta_cima from "../assets/seta_cima.png"
 import seta_direita from "../assets/seta_direita.png"
 import seta_esquerda from "../assets/seta_esquerda.png"
+import {GlobalStyle} from "./GlobalStyle/globalstyle.js"
 export default function Footer(){
     return(
         <>
+        <GlobalStyle/>
         <S.Footer>
         <S.SectionFooterImages>
             <S.BoxImages>
             <figure>
-                <S.mediumImageSection src={rei} primary alt="" />
+                <S.mediumImageSection id="logo" src={rei} primary alt="" />
             </figure>
             <figure>
                 <S.mediumImageSection src={gloria} primary alt="" />
@@ -64,7 +66,7 @@ export default function Footer(){
             </address>
             <nav>
                 <button><S.Seta src={seta_esquerda} alt="" /> página anterior</button>
-                <button><S.Seta src={seta_cima} alt="" /> voltar ao topo</button>
+                <button onClick={()=>{window.scrollTo(0,0)}}><S.Seta src={seta_cima} alt="" /> voltar ao topo</button>
                 <button>próxima página<S.Seta src={seta_direita} alt="" /> </button>
             </nav>
         </S.SecondFooterSection>
