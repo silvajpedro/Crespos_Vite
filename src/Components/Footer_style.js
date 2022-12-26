@@ -48,7 +48,46 @@ width: 20vw;
 height: 92vh;
 `
 export const SecondFooterSection = styled.section`
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+color: #ffff;
 width: 100%;
-height: 16vh;
+height: 15vh;
 background-color: #9767A9;
+
+address{
+    /* border: solid; */
+    width: 56%;
+    font-style: normal;
+    p{      
+        word-break: break-word;
+        line-break: strict;
+    }
+}
+nav{
+    display: flex;
+    align-items: center;
+    /* border: solid; */
+}
+button{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    background-color: #9767A9;
+    cursor: pointer;
+    height: 12vh;
+    width: 9.5vw;
+    font-size: 1.5vw;
+    padding: 8px;
+    color: #ffff;
+    border:none ;
+    &:hover{
+        background-color:#AC95BB;
+    }
+}
+`
+export const Seta = styled.img`
+width: 2.8vw;
+
 `

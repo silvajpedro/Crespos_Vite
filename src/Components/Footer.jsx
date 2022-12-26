@@ -10,6 +10,9 @@ import snoop from "../assets/cabelo snoopydog.png"
 import bighair from  "../assets/NoPath - Copia (10).png"
 import tranca from  "../assets/NoPath - Copia (12).png"
 import beard from  "../assets/NoPath - Copia (9).png"
+import seta_cima from "../assets/seta_cima.png"
+import seta_direita from "../assets/seta_direita.png"
+import seta_esquerda from "../assets/seta_esquerda.png"
 export default function Footer(){
     return(
         <>
@@ -54,11 +57,15 @@ export default function Footer(){
             </S.BoxImages>
         </S.SectionFooterImages>
         <S.SecondFooterSection>
-            <p>Layout produzido por Vai na Web para fins exclusivamente educacionais. Referência: https://br.pinterest.com/pin/464644886562532897/ e https://todecacho.com.br/cabelo-crespo-natural/</p>
+            <address>
+
+            <p>Layout produzido por Vai na Web para fins exclusivamente educacionais.</p>
+            <p>Referência: https://br.pinterest.com/pin/464644886562532897/ e https://todecacho.com.br/cabelo-crespo-natural/</p>
+            </address>
             <nav>
-                <button>página</button>
-                <button>voltar</button>
-                <button>próxima</button>
+                <button><S.Seta src={seta_esquerda} alt="" /> página anterior</button>
+                <button><S.Seta src={seta_cima} alt="" /> voltar ao topo</button>
+                <button>próxima página<S.Seta src={seta_direita} alt="" /> </button>
             </nav>
         </S.SecondFooterSection>
         </S.Footer>
