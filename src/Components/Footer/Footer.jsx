@@ -13,7 +13,7 @@ import beard from  "../assets/NoPath - Copia (9).png"
 import seta_cima from "../assets/seta_cima.png"
 import seta_direita from "../assets/seta_direita.png"
 import seta_esquerda from "../assets/seta_esquerda.png"
-import {GlobalStyle} from "./GlobalStyle/globalstyle.js"
+import {GlobalStyle} from "../GlobalStyle/globalstyle.js"
 export default function Footer(){
     return(
         <>

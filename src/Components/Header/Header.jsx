@@ -5,7 +5,7 @@ import facebook from "../assets/facebook_media.png"
 import youtube from "../assets/youtube_media.png"
 import instagram from "../assets/instagram_media.png"
 import lupa from "../assets/pesquisa.png"
-import { GlobalStyle } from "./GlobalStyle/globalstyle.js";
+import { GlobalStyle } from "../GlobalStyle/globalstyle.js";
 
 export default function Header() {
   const [open, setOpen] = useState(false)
