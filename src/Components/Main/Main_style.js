@@ -70,7 +70,6 @@ export const SecondSectionMain = styled.section`
   flex-wrap: wrap;
   justify-content: center;
   height: 442vh;
-  /* border: solid red; */
   h2 {
     position: relative;
     display: flex;
